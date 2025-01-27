@@ -7,6 +7,7 @@ body {
     background-position: center;
     background-size: cover;
     height: 100vh;
+    marging: 0;
 }
 
 /* Pääotsikko */
@@ -83,7 +84,7 @@ header {
     justify-content: center;
     align-items: center;
     margin: auto;
-    max-width: 1200px;
+    max-width: 50%;
 }
 
 .gallery img {
@@ -170,37 +171,79 @@ a {
     color: lightgray;
 }
 
-/* Add media queries for responsiveness */
+/* Skaalaus */
 @media (max-width: 768px) {
-    header, .navbar, .section {
-        max-width: 90%; /* Scale to occupy more of the screen on smaller devices */
-        padding: 10px; /* Reduce padding */
+    body {
+        font-size: 14px;
+    }
+
+    header {
+        padding: 15px 10px;
+    }
+
+    .navbar {
+        padding: 10px 15px;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar a {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .section {
+        max-width: 90%;
+        padding: 30px 10px;
     }
 
     .gallery img {
-        width: 100%; /* Make images in the gallery stack vertically on smaller screens */
-    }
-
-    form textarea {
-        width: 90%; /* Adjust textarea width */
+        width: 45%;
     }
 
     form input, form button {
-        width: 90%; /* Scale form elements */
+        width: 60%;
+    }
+
+    form textarea {
+        width: 90%;
     }
 }
 
 @media (max-width: 480px) {
-    h1 {
-        font-size: 20px; /* Adjust header size */
+    body {
+        font-size: 16px;
     }
 
-    h2, h3, h4, h5, h6 {
-        font-size: 14px; /* Adjust other header sizes */
+    header {
+        padding: 10px 5px;
+    }
+
+    .navbar {
+        padding: 8px;
+        flex-direction: column;
+        width: 100%;
     }
 
     .navbar a {
-        padding: 10px; /* Adjust link padding */
-        font-size: 14px; /* Make text smaller for links */
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .section {
+        max-width: 100%;
+        padding: 20px 5px;
+    }
+
+    .gallery img {
+        width: 90%;
+    }
+
+    form input, form button {
+        width: 80%;
+    }
+
+    form textarea {
+        width: 90%;
     }
 }
