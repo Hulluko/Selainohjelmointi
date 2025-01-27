@@ -172,13 +172,22 @@ a {
 
 /* Skaalaus */
 @media (max-width: 768px) {
+    body {
+        font-size: 10px;
+    }
+
     header, .navbar, .section {
         max-width: 90%;
         padding: 10px;
     }
 
+    .navbar a {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+
     .gallery img {
-        width: 100%;
+        width: 45%;
     }
 
     form textarea {
@@ -192,7 +201,7 @@ a {
 
 @media (max-width: 480px) {
     h1 {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     h2, h3, h4, h5, h6 {
@@ -200,7 +209,15 @@ a {
     }
 
     .navbar a {
-        padding: 10px;
-        font-size: 14px;
+        font-size: 10px;
+        padding: 6px 10px;
+    }
+
+    .gallery img {
+        width: 100%;
+    }
+
+    form textarea {
+        height: 150px;
     }
 }
