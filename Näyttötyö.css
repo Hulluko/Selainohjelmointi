@@ -170,54 +170,37 @@ a {
     color: lightgray;
 }
 
-/* Responsive Styles */
+/* Add media queries for responsiveness */
 @media (max-width: 768px) {
-    body {
-        font-size: 10px; /* Adjust font size for smaller screens */
-    }
-
     header, .navbar, .section {
-        max-width: 90%; /* Expand elements to occupy more space on smaller screens */
-        padding: 10px; /* Reduce padding for smaller screens */
-    }
-
-    .navbar a {
-        padding: 8px 12px; /* Adjust padding in navbar links */
-        font-size: 12px; /* Scale down font size */
+        max-width: 90%; /* Scale to occupy more of the screen on smaller devices */
+        padding: 10px; /* Reduce padding */
     }
 
     .gallery img {
-        width: 45%; /* Make gallery images take up more width on smaller screens */
+        width: 100%; /* Make images in the gallery stack vertically on smaller screens */
     }
 
     form textarea {
-        width: 90%; /* Adjust textarea width for smaller devices */
+        width: 90%; /* Adjust textarea width */
     }
 
     form input, form button {
-        width: 90%; /* Scale form inputs and buttons */
+        width: 90%; /* Scale form elements */
     }
 }
 
 @media (max-width: 480px) {
     h1 {
-        font-size: 18px; /* Further adjust header size */
+        font-size: 20px; /* Adjust header size */
     }
 
     h2, h3, h4, h5, h6 {
-        font-size: 14px; /* Further adjust other headers */
+        font-size: 14px; /* Adjust other header sizes */
     }
 
     .navbar a {
-        font-size: 10px; /* Make navbar links text smaller */
-        padding: 6px 10px; /* Further reduce padding */
-    }
-
-    .gallery img {
-        width: 100%; /* Stack gallery images vertically on very small screens */
-    }
-
-    form textarea {
-        height: 150px; /* Reduce height of textarea for very small devices */
+        padding: 10px; /* Adjust link padding */
+        font-size: 14px; /* Make text smaller for links */
     }
 }
