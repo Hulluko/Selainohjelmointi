@@ -4,10 +4,9 @@ body {
     font-size: 12px;
     background-image: url('Images/Maalaus.jpg');
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
     background-size: cover;
-    height: 100vh;
-    margin: 0;
+    height: 150vh;
 }
 
 /* Pääotsikko */
@@ -30,7 +29,7 @@ header {
     color:white;
     padding: 10px 20px;
     text-align: center;
-    background-position: center center;
+    background-position: center;
 }
 
 /* Navigointipalkki */
@@ -70,7 +69,7 @@ header {
     color: white;
     background-image: url('Images/mustaa.jpg');
     background-size: cover;
-    background-position: center center;
+    background-position: center;
 }
 
 .section.active {
