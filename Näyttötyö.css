@@ -21,7 +21,7 @@ h2, h3, h4, h5, h6 {
 }
 
 header {
-    background-image: url(mustaa.jpg);
+    background-image: url('Images/mustaa.jpg');
     margin: auto;
     max-width: 50%;
     background-size: cover;
@@ -66,7 +66,7 @@ header {
     max-width: 50%;
     padding: 40px 20px;
     color: white;
-    background-image: url(mustaa.jpg);
+    background-image: url('Images/mustaa.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
