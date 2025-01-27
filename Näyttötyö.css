@@ -29,7 +29,6 @@ header {
     color:white;
     padding: 10px 20px;
     text-align: center;
-    background-position: center;
 }
 
 /* Navigointipalkki */
@@ -69,7 +68,6 @@ header {
     color: white;
     background-image: url('Images/mustaa.jpg');
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
 }
 
