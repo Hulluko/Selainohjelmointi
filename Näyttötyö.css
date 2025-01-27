@@ -147,8 +147,8 @@ form input, form button {
 }
 
 form textarea {
-    height: 250px;
-    width: 500px;
+    height: 25%;
+    width: 25%;
     margin-left: auto;
     margin-right: auto;
 }
