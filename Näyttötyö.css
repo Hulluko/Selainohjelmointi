@@ -84,7 +84,7 @@ header {
     justify-content: center;
     align-items: center;
     margin: auto;
-    max-width: 100%;
+    max-width: 50%;
 }
 
 .gallery img {
