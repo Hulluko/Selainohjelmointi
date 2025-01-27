@@ -1,0 +1,171 @@
+/* Perustyyli */
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    background-image: url(maalaus.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* Pääotsikko */
+h1 {
+    font-size: 24px;
+    color: white;
+}
+
+/* Muut otsikot */
+h2, h3, h4, h5, h6 {
+    font-size: 16px;
+}
+
+header {
+    background-image: url(mustaa.jpg);
+    margin: auto;
+    max-width: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+/* Navigointipalkki */
+.navbar {
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px 20px;
+    margin: auto;
+    margin-bottom: 20px;
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.navbar a {
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    white-space: nowrap;
+}
+
+.navbar a:hover {
+    background-color: lightgray;
+}
+
+/* Osiot */
+.section {
+    text-align: center;
+    display: none;
+    margin: auto;
+    max-width: 50%;
+    padding: 40px 20px;
+    color: white;
+    background-image: url(mustaa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section.active {
+    display: block;
+}
+
+/* Galleria */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.gallery img {
+    width: 30%;
+    object-fit: cover;
+    aspect-ratio: 4 / 3;
+}
+
+/* Värien testaus */
+.color-palette {
+    margin-bottom: 20px;
+}
+
+.color-box {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    margin: auto;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+.color-display {
+    display: flex;
+    margin-top: 20px;
+}
+
+.test-area {
+    color: black;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 250px;
+    border: 1px solid black;
+}
+
+button {
+    padding: 5px 5px;
+    background-color: gray;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: lightgray;
+}
+
+/* Lomake */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input, form button {
+    width: 25%;
+    margin: auto;
+    padding: 10px;
+    font-size: 1em;
+}
+
+form textarea {
+    height: 250px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form button {
+    background-color: gray;
+    width: auto;
+    height: auto;
+    padding: 5px 5px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: lightgrey;
+}
+
+a {
+    color: lightgray;
+}
