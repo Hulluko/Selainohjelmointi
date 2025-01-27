@@ -181,7 +181,8 @@ a {
     }
 
     .navbar {
-        padding: 10px;
+        padding: 10px 15px;
+        flex-direction: column;
         width: 100%;
     }
 
@@ -219,6 +220,8 @@ a {
 
     .navbar {
         padding: 8px;
+        flex-direction: column;
+        width: 100%;
     }
 
     .navbar a {
