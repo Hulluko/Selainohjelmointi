@@ -169,3 +169,77 @@ form button:hover {
 a {
     color: lightgray;
 }
+
+/* Skaalaus */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    header {
+        padding: 15px 10px;
+    }
+
+    .navbar {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .navbar a {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .section {
+        max-width: 90%;
+        padding: 30px 10px;
+    }
+
+    .gallery img {
+        width: 45%;
+    }
+
+    form input, form button {
+        width: 60%;
+    }
+
+    form textarea {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 16px;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    .navbar {
+        padding: 8px;
+    }
+
+    .navbar a {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .section {
+        max-width: 100%;
+        padding: 20px 5px;
+    }
+
+    .gallery img {
+        width: 90%;
+    }
+
+    form input, form button {
+        width: 80%;
+    }
+
+    form textarea {
+        width: 90%;
+    }
+}
