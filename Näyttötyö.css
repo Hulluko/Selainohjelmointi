@@ -70,6 +70,7 @@ header {
     background-image: url('Images/mustaa.jpg');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .section.active {
