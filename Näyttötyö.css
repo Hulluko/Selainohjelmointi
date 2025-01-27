@@ -84,6 +84,8 @@ header {
     align-items: center;
     margin: auto;
     max-width: 1200px;
+    background-position: center;
+    background-size: cover;
 }
 
 .gallery img {
