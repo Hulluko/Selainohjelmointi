@@ -173,7 +173,6 @@ a {
 /* Mobiili */
 @media (max-width: 768px) {
     body {
-        background-position: top;
-        background-size: contain;
+        background-size: 100% 100%;
     }
 }
