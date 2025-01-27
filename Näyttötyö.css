@@ -222,16 +222,3 @@ a {
     }
 
 }
-
-@media (max-width: 768px) {
-    body {
-        background-size: contain;
-    }
-}
-
-@media (max-width: 480px) {
-    body {
-        background-size: contain;
-        background-position: top;
-    }
-}
