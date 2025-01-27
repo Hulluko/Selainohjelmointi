@@ -169,3 +169,11 @@ form button:hover {
 a {
     color: lightgray;
 }
+
+/* Mobiili */
+@media (max-width: 768px) {
+    body {
+        background-position: top;
+        background-size: contain;
+    }
+}
