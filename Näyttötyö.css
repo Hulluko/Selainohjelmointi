@@ -6,7 +6,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 /* Pääotsikko */
@@ -64,6 +64,7 @@ header {
     display: none;
     margin: auto;
     max-width: 50%;
+    max-height: 100vh;
     padding: 40px 20px;
     color: white;
     background-image: url('Images/mustaa.jpg');
@@ -168,11 +169,4 @@ form button:hover {
 
 a {
     color: lightgray;
-}
-
-/* Mobiili */
-@media (max-width: 768px) {
-    body {
-        background-size: 100% 100%;
-    }
 }
